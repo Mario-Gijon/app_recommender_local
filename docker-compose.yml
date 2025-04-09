@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: mariogijon/apprecommender_local_frontend:latest
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: always
+
+  backend:
+    image: mariogijon/apprecommender_local_backend:latest
+    ports:
+      - "8000:8000"
+    environment:
+      MOVIES_SOURCE: "local"
+    volumes:
+      - ./data:/usr/src/app/data
+    restart: always
