@@ -35,5 +35,5 @@ Para actualizar la lista de películas, es necesario modificar la variable de en
 - Documentación de la api: http://localhost:8000/docs
 
 ## Importante
-La app descargará la información de películas en un directorio data/, donde se encuentra las imágenes y un fichero csv con la información de cada película. En caso de no encontrarse la carpeta, el servidor creará y actualizará la lista de películas.
+La app descargará la información de películas en un directorio data/, donde se encuentran las imágenes y un fichero csv con la información de cada película. En caso de no encontrarse la carpeta, el servidor creará y actualizará la lista de películas.
 
