@@ -9,7 +9,7 @@ Aplicación de recomendación de películas. Desarrollado con React y FastAPI, d
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/mariogijon/apprecommender_local.git
+   git clone https://github.com/Mario-Gijon/apprecommender_local.git
    cd app-recommender
 
 2. Descarga y ejecuta los contenedores con docker-compose:
